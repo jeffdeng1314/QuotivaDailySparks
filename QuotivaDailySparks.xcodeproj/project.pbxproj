@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		919A1A972A18B7EC00A6C321 /* QuotivaDailySparksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919A1A962A18B7EC00A6C321 /* QuotivaDailySparksApp.swift */; };
+		919A1A992A18B7EC00A6C321 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919A1A982A18B7EC00A6C321 /* ContentView.swift */; };
+		919A1A9B2A18B7EE00A6C321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919A1A9A2A18B7EE00A6C321 /* Assets.xcassets */; };
+		919A1A9E2A18B7EE00A6C321 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919A1A9D2A18B7EE00A6C321 /* Preview Assets.xcassets */; };
+		919A1AA82A18B7EE00A6C321 /* QuotivaDailySparksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919A1AA72A18B7EE00A6C321 /* QuotivaDailySparksTests.swift */; };
+		919A1AB22A18B7EE00A6C321 /* QuotivaDailySparksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919A1AB12A18B7EE00A6C321 /* QuotivaDailySparksUITests.swift */; };
+		919A1AB42A18B7EE00A6C321 /* QuotivaDailySparksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919A1AB32A18B7EE00A6C321 /* QuotivaDailySparksUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		919A1AA42A18B7EE00A6C321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 919A1A8B2A18B7EC00A6C321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 919A1A922A18B7EC00A6C321;
+			remoteInfo = QuotivaDailySparks;
+		};
+		919A1AAE2A18B7EE00A6C321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 919A1A8B2A18B7EC00A6C321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 919A1A922A18B7EC00A6C321;
+			remoteInfo = QuotivaDailySparks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		919A1A932A18B7EC00A6C321 /* QuotivaDailySparks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotivaDailySparks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		919A1A962A18B7EC00A6C321 /* QuotivaDailySparksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotivaDailySparksApp.swift; sourceTree = "<group>"; };
+		919A1A982A18B7EC00A6C321 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		919A1A9A2A18B7EE00A6C321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		919A1A9D2A18B7EE00A6C321 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		919A1AA32A18B7EE00A6C321 /* QuotivaDailySparksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotivaDailySparksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		919A1AA72A18B7EE00A6C321 /* QuotivaDailySparksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotivaDailySparksTests.swift; sourceTree = "<group>"; };
+		919A1AAD2A18B7EE00A6C321 /* QuotivaDailySparksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotivaDailySparksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		919A1AB12A18B7EE00A6C321 /* QuotivaDailySparksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotivaDailySparksUITests.swift; sourceTree = "<group>"; };
+		919A1AB32A18B7EE00A6C321 /* QuotivaDailySparksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotivaDailySparksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		919A1A902A18B7EC00A6C321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919A1AA02A18B7EE00A6C321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919A1AAA2A18B7EE00A6C321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		919A1A8A2A18B7EC00A6C321 = {
+			isa = PBXGroup;
+			children = (
+				919A1A952A18B7EC00A6C321 /* QuotivaDailySparks */,
+				919A1AA62A18B7EE00A6C321 /* QuotivaDailySparksTests */,
+				919A1AB02A18B7EE00A6C321 /* QuotivaDailySparksUITests */,
+				919A1A942A18B7EC00A6C321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		919A1A942A18B7EC00A6C321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				919A1A932A18B7EC00A6C321 /* QuotivaDailySparks.app */,
+				919A1AA32A18B7EE00A6C321 /* QuotivaDailySparksTests.xctest */,
+				919A1AAD2A18B7EE00A6C321 /* QuotivaDailySparksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		919A1A952A18B7EC00A6C321 /* QuotivaDailySparks */ = {
+			isa = PBXGroup;
+			children = (
+				919A1A962A18B7EC00A6C321 /* QuotivaDailySparksApp.swift */,
+				919A1A982A18B7EC00A6C321 /* ContentView.swift */,
+				919A1A9A2A18B7EE00A6C321 /* Assets.xcassets */,
+				919A1A9C2A18B7EE00A6C321 /* Preview Content */,
+			);
+			path = QuotivaDailySparks;
+			sourceTree = "<group>";
+		};
+		919A1A9C2A18B7EE00A6C321 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				919A1A9D2A18B7EE00A6C321 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		919A1AA62A18B7EE00A6C321 /* QuotivaDailySparksTests */ = {
+			isa = PBXGroup;
+			children = (
+				919A1AA72A18B7EE00A6C321 /* QuotivaDailySparksTests.swift */,
+			);
+			path = QuotivaDailySparksTests;
+			sourceTree = "<group>";
+		};
+		919A1AB02A18B7EE00A6C321 /* QuotivaDailySparksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				919A1AB12A18B7EE00A6C321 /* QuotivaDailySparksUITests.swift */,
+				919A1AB32A18B7EE00A6C321 /* QuotivaDailySparksUITestsLaunchTests.swift */,
+			);
+			path = QuotivaDailySparksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		919A1A922A18B7EC00A6C321 /* QuotivaDailySparks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919A1AB72A18B7EE00A6C321 /* Build configuration list for PBXNativeTarget "QuotivaDailySparks" */;
+			buildPhases = (
+				919A1A8F2A18B7EC00A6C321 /* Sources */,
+				919A1A902A18B7EC00A6C321 /* Frameworks */,
+				919A1A912A18B7EC00A6C321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuotivaDailySparks;
+			productName = QuotivaDailySparks;
+			productReference = 919A1A932A18B7EC00A6C321 /* QuotivaDailySparks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		919A1AA22A18B7EE00A6C321 /* QuotivaDailySparksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919A1ABA2A18B7EE00A6C321 /* Build configuration list for PBXNativeTarget "QuotivaDailySparksTests" */;
+			buildPhases = (
+				919A1A9F2A18B7EE00A6C321 /* Sources */,
+				919A1AA02A18B7EE00A6C321 /* Frameworks */,
+				919A1AA12A18B7EE00A6C321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919A1AA52A18B7EE00A6C321 /* PBXTargetDependency */,
+			);
+			name = QuotivaDailySparksTests;
+			productName = QuotivaDailySparksTests;
+			productReference = 919A1AA32A18B7EE00A6C321 /* QuotivaDailySparksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		919A1AAC2A18B7EE00A6C321 /* QuotivaDailySparksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919A1ABD2A18B7EE00A6C321 /* Build configuration list for PBXNativeTarget "QuotivaDailySparksUITests" */;
+			buildPhases = (
+				919A1AA92A18B7EE00A6C321 /* Sources */,
+				919A1AAA2A18B7EE00A6C321 /* Frameworks */,
+				919A1AAB2A18B7EE00A6C321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919A1AAF2A18B7EE00A6C321 /* PBXTargetDependency */,
+			);
+			name = QuotivaDailySparksUITests;
+			productName = QuotivaDailySparksUITests;
+			productReference = 919A1AAD2A18B7EE00A6C321 /* QuotivaDailySparksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		919A1A8B2A18B7EC00A6C321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					919A1A922A18B7EC00A6C321 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					919A1AA22A18B7EE00A6C321 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 919A1A922A18B7EC00A6C321;
+					};
+					919A1AAC2A18B7EE00A6C321 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 919A1A922A18B7EC00A6C321;
+					};
+				};
+			};
+			buildConfigurationList = 919A1A8E2A18B7EC00A6C321 /* Build configuration list for PBXProject "QuotivaDailySparks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 919A1A8A2A18B7EC00A6C321;
+			productRefGroup = 919A1A942A18B7EC00A6C321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				919A1A922A18B7EC00A6C321 /* QuotivaDailySparks */,
+				919A1AA22A18B7EE00A6C321 /* QuotivaDailySparksTests */,
+				919A1AAC2A18B7EE00A6C321 /* QuotivaDailySparksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		919A1A912A18B7EC00A6C321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919A1A9E2A18B7EE00A6C321 /* Preview Assets.xcassets in Resources */,
+				919A1A9B2A18B7EE00A6C321 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919A1AA12A18B7EE00A6C321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919A1AAB2A18B7EE00A6C321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		919A1A8F2A18B7EC00A6C321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919A1A992A18B7EC00A6C321 /* ContentView.swift in Sources */,
+				919A1A972A18B7EC00A6C321 /* QuotivaDailySparksApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919A1A9F2A18B7EE00A6C321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919A1AA82A18B7EE00A6C321 /* QuotivaDailySparksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919A1AA92A18B7EE00A6C321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919A1AB42A18B7EE00A6C321 /* QuotivaDailySparksUITestsLaunchTests.swift in Sources */,
+				919A1AB22A18B7EE00A6C321 /* QuotivaDailySparksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		919A1AA52A18B7EE00A6C321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 919A1A922A18B7EC00A6C321 /* QuotivaDailySparks */;
+			targetProxy = 919A1AA42A18B7EE00A6C321 /* PBXContainerItemProxy */;
+		};
+		919A1AAF2A18B7EE00A6C321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 919A1A922A18B7EC00A6C321 /* QuotivaDailySparks */;
+			targetProxy = 919A1AAE2A18B7EE00A6C321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		919A1AB52A18B7EE00A6C321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		919A1AB62A18B7EE00A6C321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		919A1AB82A18B7EE00A6C321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuotivaDailySparks/Preview Content\"";
+				DEVELOPMENT_TEAM = VZ42KUKVJT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quotiva.QuotivaDailySparks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		919A1AB92A18B7EE00A6C321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuotivaDailySparks/Preview Content\"";
+				DEVELOPMENT_TEAM = VZ42KUKVJT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quotiva.QuotivaDailySparks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		919A1ABB2A18B7EE00A6C321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZ42KUKVJT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quotiva.QuotivaDailySparksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuotivaDailySparks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuotivaDailySparks";
+			};
+			name = Debug;
+		};
+		919A1ABC2A18B7EE00A6C321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZ42KUKVJT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quotiva.QuotivaDailySparksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuotivaDailySparks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuotivaDailySparks";
+			};
+			name = Release;
+		};
+		919A1ABE2A18B7EE00A6C321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZ42KUKVJT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quotiva.QuotivaDailySparksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuotivaDailySparks;
+			};
+			name = Debug;
+		};
+		919A1ABF2A18B7EE00A6C321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZ42KUKVJT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quotiva.QuotivaDailySparksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuotivaDailySparks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		919A1A8E2A18B7EC00A6C321 /* Build configuration list for PBXProject "QuotivaDailySparks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919A1AB52A18B7EE00A6C321 /* Debug */,
+				919A1AB62A18B7EE00A6C321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919A1AB72A18B7EE00A6C321 /* Build configuration list for PBXNativeTarget "QuotivaDailySparks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919A1AB82A18B7EE00A6C321 /* Debug */,
+				919A1AB92A18B7EE00A6C321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919A1ABA2A18B7EE00A6C321 /* Build configuration list for PBXNativeTarget "QuotivaDailySparksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919A1ABB2A18B7EE00A6C321 /* Debug */,
+				919A1ABC2A18B7EE00A6C321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919A1ABD2A18B7EE00A6C321 /* Build configuration list for PBXNativeTarget "QuotivaDailySparksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919A1ABE2A18B7EE00A6C321 /* Debug */,
+				919A1ABF2A18B7EE00A6C321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 919A1A8B2A18B7EC00A6C321 /* Project object */;
+}
